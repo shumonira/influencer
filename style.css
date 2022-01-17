@@ -1,0 +1,83 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* root */
+*{
+  box-sizing: border-box;
+}
+
+/* utilities */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  padding-bottom: 261.25px;
+  min-height: 100vh;
+}
+
+main{
+  display: grid;
+  gap:20px;
+  /* min-height: calc(100vh - 87.29px - 261.25px); */
+}
+
+/* navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:1rem 7% ;
+}
+
+.menu-items ul{
+  display: flex;
+  
+}
+
+.menu-items li{
+  list-style: none;
+}
+.menu-items li a{
+  padding: 1em;
+  text-decoration: none;
+  color:black;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.fa-facebook{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 20px;
+}
+.fa-youtube{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+}
+.fa-instagram{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+}
+.fa-github{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.copyrights{
+  margin: 0;
+}
