@@ -49,12 +49,31 @@ main{
 }
 
 /* journey */
+.journey{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+.journey-title{
+  width: 600px;
+}
+.journey h1{
+  font-size: 52px; 
+}
+.journey-title p{
+  margin-bottom:50px;
+}
 .btn{
   padding: 10px 30px;
   text-decoration: none;
   background-color:#E02C6D;
   color: #ffffff;
   border-radius: 30px;
+  }
+
+  .journey-image{
+    position: relative;
+    right:200px;
   }
 .footer{
   display: flex;
